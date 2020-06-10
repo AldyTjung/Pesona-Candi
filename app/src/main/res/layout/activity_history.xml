@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:onClick="opening"
+    android:background="@drawable/jalan"
+    tools:context=".History">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HISTORY"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candi Kidal, adalah candi peninggalan yang lain dari dinasti Singhasari dan merupakan candi Candi Kidal terletak di Desa Rejokidal, kecamatan Tumpang, 20 Km sebelah timur kota Malang.
+Layaknya candi-candi di Jawa Timur, Candi Kidal di bangun sebagai tempat persemayaman Raja Anusapati, yaitu raja kedua dari kerajaan Singhasari, yang wafat pada tahun 1248 M, dan diperkirakan candi di bangun pada tahun 1260 M.
+Pada awal penemuannya, candi Kidal ditemukan oleh pihak Belanda pada tahun 1925. Hal ini terbukti dengan tersimpannya arca Siwa, yang seharusnya berada di candi Kidal, telah tersimpan di Royal Tripical Institute Amsterdam.
+Candi yang memiliki relief dengan cerita Garudeya ini telah mendapat rekonstruksi pada tahun 1990, makna dari relief Garudeya ini adalah tentang pembebasan perbudakan. Material utama candi Kidal ini adalah batu andesit dengan dimensi geometris vertikal.Candi Kidal merupakan salah satu candi warisan dari kerajaan Singasari."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+</LinearLayout>

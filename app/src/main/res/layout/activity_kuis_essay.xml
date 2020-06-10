@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ungu"
+    tools:context=".KuisEssay">
+
+    <LinearLayout
+        android:id="@+id/lineSkor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKOR : "
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:id="@+id/Skor2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineGambar"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/lineSkor2"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Gambar"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/Soal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Jawaban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lineGambar"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:hint="Masukkan Jawaban disini"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/Submit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Jawaban"
+        android:layout_margin="10dp"
+        android:text="SUBMIT"
+        android:background="#5f7dc9"/>
+
+</RelativeLayout>
